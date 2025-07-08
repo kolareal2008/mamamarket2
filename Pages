@@ -1,1 +1,21 @@
-
+export default function Home() {
+  return (
+    <main style={{
+      background: "linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)",
+      minHeight: "100vh",
+      color: "#fff",
+      padding: "2rem"
+    }}>
+      <h1 style={{ fontSize: "2.5rem" }}>Mama Market</h1>
+      <p>Buy Food, Rent Homes, and Access Agro Products — All in One App</p>
+      <div style={{ marginTop: "2rem" }}>
+        <button style={{ marginRight: "1rem" }}>Food Orders</button>
+        <button style={{ marginRight: "1rem" }}>Agro Store</button>
+        <button>Rent Homes</button>
+      </div>
+      <p style={{ marginTop: "4rem", fontSize: "0.9rem" }}>
+        From your MaMa to your Doorstep — by Fatorisa Kolapo Olujide
+      </p>
+    </main>
+  );
+}
